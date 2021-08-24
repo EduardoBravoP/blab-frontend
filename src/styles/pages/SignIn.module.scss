@@ -2,14 +2,35 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  
+
   display: flex;
-  justify-content: center;
-  align-items: center;
+
+  aside {
+    max-width: 720px;
+    background: radial-gradient(
+      59.88% 59.88% at 50% 50%,
+      #e3f6fc 0%,
+      #adebff 0.01%,
+      rgba(175, 213, 225, 0.962526) 57.81%,
+      rgba(242, 246, 247, 0.7) 100%
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   form {
-    height: 453px;
-    width: 866px;
-    background-color: #faf;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-weight: 500;
+      font-size: 36px;
+    }
   }
 }
